@@ -1,0 +1,20 @@
+@media screen  and (max-width:815px) {
+   .merhaba i{
+       font-size: 15px;
+   } 
+   .merhaba strong {
+       font-size: 15px;
+       margin-right: 5px;
+   }
+
+   .merhaba span {
+       font-size: 15px;
+       margin-right: 5px;
+   }
+   .merhaba {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 5px;
+   }
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width:815px) {
+    .login h2 {
+        font-size: 15px;
+    }
+    .login .loginbir {
+      max-width: 220px; 
+    }
+}

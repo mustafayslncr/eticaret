@@ -1,0 +1,39 @@
+.detaylar {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ucresim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ucresim img {
+    max-width: 15%;
+}
+
+.resimlerim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detaylar .detayicerik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius:50%;
+    box-shadow: 2px 4px 14px black;
+    background:white;
+    color:black;
+    height: 500px;
+}
+

@@ -1,0 +1,22 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    margin-bottom: 100px;
+
+}
+.resim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.resim img{
+    max-width:70% ;
+}
+
+.product button {
+    font-size: 20px;
+}

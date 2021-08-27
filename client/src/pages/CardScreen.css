@@ -1,0 +1,62 @@
+.cart-genel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cart-resim img{
+    max-width:150px;
+}
+.cartcart{
+    margin: 15px;
+}
+.cart-genel span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.bossepet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:750px;
+    font-size: 30px;
+}
+
+.toplam {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: rgb(231, 88, 88);
+}
+.toplam span{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.kupon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 10px 2px;
+    background-color: rgb(206, 179, 143);
+}
+
+.kupon input {
+    height: 38px;
+    width: 250px;
+    margin-right: 5px;
+}
+
+.kupon span {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.iconlar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconlar a {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.footeryazi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footeryazi h3 {
+    font-size: 20px;
+}
+
+.yaziiki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+@media screen  and (max-width:815px) {
+    .footeryazi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footeryazi h3 {
+    font-size: 15px;
+}
+
+.yaziiki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 13px;
+}
+}

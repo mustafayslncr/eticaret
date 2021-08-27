@@ -1,0 +1,35 @@
+.admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-image: linear-gradient(gray, white);
+}
+
+.admin input {
+    margin: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.admin button {
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    
+}
+
+.admin h2 {
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.admin img {
+   position: fixed;
+   right: 10px;
+   top:0;
+   transform: translateY(25%);
+
+
+}

@@ -1,0 +1,49 @@
+.iletisim span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.yazi h2,h4{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    color: black;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+    align-items: center; 
+}
+
+@media screen and (max-width:815px) {
+    .yazi h2,h4{
+        font-size: 15px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        color: black;
+    }
+    
+    
+    .icon i {
+        font-size: 15px;
+        padding: 10px;
+        display: inline-block;
+        align-items: center; 
+    }
+}

@@ -1,0 +1,82 @@
+.headertop {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.marka {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.marka span {
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.marka img {
+    height: 75px;
+}
+
+.sagsekme span {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.animation {
+    animation: logo 4s ease-in-out 1s infinite forwards alternate;
+}
+
+@keyframes logo{
+    0%{color: white;}
+    25%{color: pink;}
+    50%{color: lightgreen;}
+    75%{color: lightsalmon;}
+    100%{color: yellowgreen;}
+}
+
+.headertop a {
+    color: white;
+}
+
+@media screen and (max-width:815px) {
+    .headertop {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .marka span {
+        font-size: 22px;
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .marka img {
+        height: 35px;
+    }
+    .sagsekme span {
+        font-size: 14px;
+        margin: 2px;
+        padding: 2px;
+    }
+    .sagsekme{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid white;
+    }
+    .sagsekme i {
+        display: none;
+    }
+
+    .sagsekme .sil {
+        display: none;
+    }
+
+}
